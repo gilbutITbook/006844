@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script type="text/javascript">
+      var clickCount = 0,
+          displayCount = function() {
+            var countElement = document.getElementById("countDisplay");
+            countElement.innerText = clickCount.toString();
+          }
+    </script>
+  </head>
+
+  <body>
+    <button type="button" onclick="clickCount++; displayCount();">
+      Increment
+    </button>
+
+    <span id="countDisplay">0</span>
+  </body>
+
+</html>

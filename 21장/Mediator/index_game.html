@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <link data-require="jasmine@2.0.0" data-semver="2.0.0" rel="stylesheet" href="http://cdn.jsdelivr.net/jasmine/2.0.0/jasmine.css" />
+    <script data-require="jasmine@2.0.0" data-semver="2.0.0" src="http://cdn.jsdelivr.net/jasmine/2.0.0/jasmine.js"></script>
+    <script data-require="jasmine@2.0.0" data-semver="2.0.0" src="http://cdn.jsdelivr.net/jasmine/2.0.0/jasmine-html.js"></script>
+    <script data-require="jasmine@2.0.0" data-semver="2.0.0" src="http://cdn.jsdelivr.net/jasmine/2.0.0/boot.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="Aop.js"></script>
+    <script src="ContractRegistry.js"></script>
+    <script src="StandardContracts.js"></script>
+
+    <script src="normalPoint.js"></script>
+    <script src="normalPointContracts.js"></script>
+
+    <script src="pathIndex.js"></script>
+
+    <script src="gameNode.js"></script>
+    <script src="gameNodeContracts.js"></script>
+
+    <script src="player.js"></script>
+    <script src="playerContracts.js"></script>
+
+    <script src="bot.js"></script>
+    <script src="botContracts.js"></script>
+
+    <script src="gameLogic.js"></script>
+    <script src="gameLogicContracts.js"></script>
+
+    <script src="svgDisplay.js"></script>
+
+    <script src="mediator.js"></script>
+    <script src="mediatorContracts.js"></script>
+
+    <!-- 단위 테스트할 경우 다음 줄은 주석 처리한다. -->
+    <script src="main.js"></script>
+
+    <!-- 제품 코드에서는 다음 줄 삭제 가능 -->
+    <script src="GameContractRegistry.js"></script>
+
+    <!-- 단위 테스트 전용 -->
+<!--
+    <script src="normalPoint_tests.js"></script>
+    <script src="gameNode_tests.js"></script>
+    <script src="player_tests.js"></script>
+    <script src="bot_tests.js"></script>
+    <script src="gameLogic_tests.js"></script>
+    <script src="mediator_tests.js"></script>
+-->
+  </head>
+
+  <body>
+    <!-- 단위 테스트할 경우 body 영역은 주석 처리한다. -->
+    <h1>Catch the Bots</h1>
+    <svg id="gameSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    <div>
+    <p>To play, place focus in the textbox: <input type="text" id="gameInput" autofocus/></p>
+    <p>The blue player moves with keys 1 (left), 2 (up), 3 (down) and 4 (right).</p>
+    <p>The pink player moves with keys 6 (left), 7 (up), 8 (down) and 9 (right).</p>
+    <p>The players win when they eliminate all the bots. They must catch a bot when it is at rest. If a bot moves into a player, nothing happens.</p>
+    </div>
+
+  </body>
+
+</html>

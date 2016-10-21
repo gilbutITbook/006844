@@ -1,0 +1,21 @@
+#gameSvg {
+  width: 500px;
+  height: 600px;
+  border: 3px solid grey;
+}
+
+.path1 {
+  color:DarkMagenta;
+  font-weight:bold;
+  font-size:2em;
+}
+.path2 {
+  color:ForestGreen;
+  font-weight:bold;
+  font-size:2em;
+}
+.path3 {
+  color:Goldenrod;
+  font-weight:bold;
+  font-size:2em;
+}
