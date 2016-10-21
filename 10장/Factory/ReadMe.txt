@@ -1,4 +1,4 @@
-﻿Running the Sample Code
+﻿예제 코드 실행 방법
 -----------------------
 
-To run this chapter's samples, just double-click on index.html to bring it up in your web browser. The unit tests will execute and Jasmine will display the results.
+이 장의 예제 코드를 실행하려면 그냥 index.html 파일을 더블클릭하여 웹 브라우저에 띄운다. 단위 테스트가 실행되면서 재스민 결과가 화면에 표시될 것이다.

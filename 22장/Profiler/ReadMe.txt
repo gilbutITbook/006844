@@ -1,3 +1,5 @@
-﻿To run the original version of attendeePage.js, double-click on index.html to launch it in your browser.
+﻿예제 코드 실행 방법
+-----------------------
 
-To run the improved version, double-click on index_Improved.html.
+attendeePage.js 원버전을 실행하려면 index.html 파일을 더블클릭해서 브라우저에 띄운다.
+개선된 버전은 index_Improved.html 파일을 더블클릭한다.

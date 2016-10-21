@@ -1,9 +1,8 @@
-﻿Running the Sample Code
+﻿예제 코드 실행 방법
 ===================================================================================
 
-In each subdirectory for this chapter, you will find index.html or several
-index_nn.html files. Open one in your browser to run the tests it contains.
-
+각 서브 디렉터리에는 index.html, 또는 여러 index_nn.html 파일이 들어있다.
+브라우저에서 해당 파일을 열면 테스트가 실행된다.
 
 
 In the ContractRegistry directory

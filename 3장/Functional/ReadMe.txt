@@ -1,5 +1,5 @@
-﻿Running the Sample Code
+﻿예제 코드 실행 방법
 -----------------------
 
-1. Open index.html in a web browser
-2. Open the browser's developer tools so that you can view console output
+1. 브라우저에서 index.html 파일을 연다.
+2. 브라우저에서 개발자 도구를 열면 콘솔 출력창이 표시된다.

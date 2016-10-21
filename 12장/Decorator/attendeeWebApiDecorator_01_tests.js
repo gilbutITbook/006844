@@ -3,7 +3,7 @@
 
   var decoratedWebApi,
       baseWebApi,
-      underlyingFailure = '원 함수 실패';
+      underlyingFailure = '원함수 실패';
 
   beforeEach(function() {
     baseWebApi = Conference.fakeAttendeeWebApi();
@@ -12,9 +12,9 @@
 
   describe('getAll()', function() {
 
-    describe('원 getAll이 실패할 경우', function() {
+    describe('원getAll이 실패할 경우', function() {
 
-      it('원 버림 프라미스를 반환한다', function(done) {
+      it('원버림 프라미스를 반환한다', function(done) {
         spyOn(baseWebApi,'getAll').and.returnValue(
           new Promise( function(resolve,reject) {
             setTimeout(function() {
@@ -24,7 +24,7 @@
 
         decoratedWebApi.getAll().then(
           function onSuccess() {
-            expect('원 getAll 함수 성공').toBe(false);
+            expect('원getAll 함수 성공').toBe(false);
             done();
           },
           function onFailure(reason) {

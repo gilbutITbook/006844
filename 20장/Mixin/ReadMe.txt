@@ -1,4 +1,4 @@
-﻿Running the Sample Code
+﻿예제 코드 실행 방법
 -----------------------
 
-Open index_xxxx_nn.html, where xxxx is the sample name and nn is the sample number, in your favorite browser.
+자신이 즐겨쓰는 브라우저에서 index_xxxx_nn.html 파일을 연다. (xxxx는 예제명, nn은 예제번호) 

@@ -1,6 +1,4 @@
-﻿How to Run the Sample Code
-
+﻿예제 코드 실행 방법
 --------------------------
 
-
-To run the tests for presenterEvaluation_nn.js, open index_nn.html in your browser.
+presenterEvaluation_nn.js를 테스트하려면 브라우저에서 index_nn 파일을 연다.

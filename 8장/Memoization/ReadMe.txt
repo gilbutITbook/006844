@@ -1,5 +1,4 @@
-﻿Running the Sample Code
-
+﻿예제 코드 실행 방법
 -----------------------
 
-1. Open index.html in a web browser.
+1. index.html를 웹 브라우저에서 연다.

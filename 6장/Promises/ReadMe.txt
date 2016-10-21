@@ -1,8 +1,8 @@
-﻿Running the Sample Code
+﻿예제 코드 실행 방법
 -----------------------
 
-To run checkInService_01.js and its tests in checkInService_01_tests.js, double-click on checkInService_01.html.
+checkInService_01_tests.js에서 checkInService_01.js와 테스트를 실행하려면 checkInService_01.html를 더블클릭한다.
 
-To run checkInRecorder_01.js and its tests in checkInRecorder_01_tests.js, double-click on checkInRecorder_01.html or open the .html file in your browser.
+checkInRecorder_01_tests.js에서 checkInRecorder_01.js와 테스트를 실행하려면 checkInRecorder_01.html를 더블클릭하거나, 브라우저에서 .html 파일을 연다.
 
-To run the final version of both checkInService.js and checkInRecorder.js, with their tests, double-click on index.html.
+checkInService.js와 checkInRecorder.js 최종본은 index.html를 더블클릭하여 실행한다.

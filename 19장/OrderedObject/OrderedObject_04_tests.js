@@ -47,7 +47,7 @@
         expect(result).toBe(223311);
       });
 
-      it('각 프로퍼티를 몇번 방문했는지 추적한다', function() {
+      it('각 프로퍼티를 몇 번 방문했는지 추적한다', function() {
         var times = 2;
         for (var ix=0; ix<times; ++ix) {
           orderedObject.trackedForEachKey(processKey);
@@ -77,7 +77,7 @@
         expect(result).toBe(223311);
       });
 
-      it('각 프로퍼티를 몇번 방문했는지 추적한다', function() {
+      it('각 프로퍼티를 몇 번 방문했는지 추적한다', function() {
         var times = 2;
         for (var ix=0; ix<times; ++ix) {
           borrower.trackedForEachKey(processKey);

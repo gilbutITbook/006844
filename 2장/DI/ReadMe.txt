@@ -1,17 +1,14 @@
-﻿How to Run the Sample Code
-
+﻿예제 코드 실행 방법
 -----------------------
----
 
+각 파일은 세 부분으로 구성되며, 버전별로 01, 02, 03, ... 식으로 일련 번호가 붙어있다.
 
-The files come in trios tied together by a sequence number, nn, which is 01, 02 or 03.
+- DiContainer_nn.js는 테스트 대상 코드다.
+- 테스트 코드는 DiContainer_nn_tests.js에 있다.
+- index_nn.js는 재스민으로 테스트를 실행하기 위한 HTML 파일이다.
 
-- DiContainer_nn.js is a subject under test.
-- DiContainer_nn_tests.js contains the tests.
-- index_nn.js is the HTML file that runs the tests with Jasmine.
+단, DiContainer_03b.js는 책에서도 설명했듯이 DiContainer_03.js를 조금만 고친 파일이다.
 
-The exception is DiContainer_03b.js, which is a small fix to DiContainer_03.js, as explained in the chapter.
+최종본은 끝부분에 'nn'이 없다. DiContainer.js을 테스트하려면 index.html에서 DiContainer_tests.js를 실행한다.
 
-The final version has no 'nn' suffix. DiContainer.js is tested by DiContainer_tests.js using index.html.
-
-To run a trio, just open index_nn.html in your web browser.
+세 부분을 실행하려면 웹 브라우저에서 index_nn.html 파일을 그냥 열면 된다.

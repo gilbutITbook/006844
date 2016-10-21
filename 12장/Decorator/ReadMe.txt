@@ -1,6 +1,6 @@
-﻿How to Run the Sample Code
+﻿예제 코드 실행 방법
 --------------------------
 
-To run of attendeeWebApiDecorator_nn.js, open index_nn.html in your browser.
+attendeeWebApiDecorator_nn.js를 테스트하려면 브라우저에서 index_nn 파일을 연다.
 
-The final version the the one without a number: Index.html runs attendeeWebApiDecorator.js's tests.
+최종본은 뒤에 숫자가 없고, index.html 파일을 실행하면 attendeeWebApiDecorator.js를 테스트할 수 있다.

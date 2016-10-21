@@ -4,7 +4,7 @@ Game.mediator = function mediator() {
   'use strict';
 
   // magicKey는 mediator 가족들만 공유하는 기밀로,
-  // 재생성이 불가능한 비공개 객체를 가리키는 비공개 참조체다.
+  // 재생성이 불가능한 프라이빗 객체를 가리키는 프라이빗 참조체다.
   var magicKey = {},
 
       // 게임 로직(규칙)을 캡슐화한다

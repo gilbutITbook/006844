@@ -1,6 +1,6 @@
-﻿Running the Sample Code for Mediator
+﻿중재자 예제 코드 실행 방법
 ------------------------------------
 
-To run the unit tests, open index_tests.html in your web browser.
+단위 테스트를 실행하려면 웹 브라우저에서 index_tests.html 파일을 연다.
 
-To run the game, open index_game.html.
+index_game.html 파일을 열면 게임이 실행된다.

@@ -4,7 +4,7 @@
   var decoratedWebApi,
       baseWebApi,
       attendeeA,
-      underlyingFailure = '원 함수 실패';
+      underlyingFailure = '원함수 실패';
 
   beforeEach(function() {
     baseWebApi = Conference.fakeAttendeeWebApi();
@@ -14,9 +14,9 @@
 
   describe('post(attendee)', function() {
 
-    describe('원 getAll이 실패할 경우', function() {
+    describe('원getAll이 실패할 경우', function() {
       beforeEach(function() {
-        // 다음 차례가 되어서야 비로소 원 post가 실패하게 만든다.
+        // 다음 차례가 되어서야 비로소 원post가 실패하게 만든다.
        spyOn(baseWebApi,'post').and.returnValue(
         new Promise( function(resolve,reject) {
           setTimeout(function() {
@@ -24,7 +24,7 @@
           },5);
         }));
       });
-      it('원 사유로 인해 버려진 프라미스를 반환한다', function(done) {
+      it('원사유로 인해 버려진 프라미스를 반환한다', function(done) {
         decoratedWebApi.post(attendeeA).then(
           function onSuccessfulPost() {
             expect('전송 성공').toBe(false);
@@ -56,8 +56,8 @@
 
   describe('getAll()', function() {
 
-    describe('원 getAll이 실패할 경우', function() {
-      it('원 버림 프라미스를 반환한다', function(done) {
+    describe('원getAll이 실패할 경우', function() {
+      it('원버림 프라미스를 반환한다', function(done) {
         spyOn(baseWebApi,'getAll').and.returnValue(
           new Promise( function(resolve,reject) {
             setTimeout(function() {
@@ -66,7 +66,7 @@
           }));
         decoratedWebApi.getAll().then(
           function onSuccess() {
-            expect('원 getAll 함수 성공').toBe(false);
+            expect('원getAll 함수 성공').toBe(false);
             done();
           },
           function onFailure(reason) {

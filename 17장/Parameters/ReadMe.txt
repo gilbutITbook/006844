@@ -1,6 +1,6 @@
-﻿Running the Sample Code
+﻿예제 코드 실행 방법
 -----------------------
 
-To run the tests for ContractRegistry_nn.js, open index_nn in your browser.
+ContractRegistry_nn.js를 테스트하려면 브라우저에서 index_nn 파일을 연다.
 
-The final version is the one without the number: ContractRegistry.js, with tests in ContractRegistry_tests.js runnable through index.html.
+최종본 ContractRegistry.js은 뒤에 숫자가 없으며, index.html 파일을 실행하면 ContractRegistry_tests.js 테스트할 수 있다.

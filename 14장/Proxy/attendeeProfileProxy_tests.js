@@ -37,7 +37,7 @@ function() {
       proxy(attendees, profileService, attendees.length+1);
       expect(spyOnProfileService.calls.count()).toBe(attendees.length);
     });
-    it("가장 인기있는 프로필부터 'prefetchLimit'개 만큼 선취한다", function() {
+    it("가장 인기 있는 프로필부터 'prefetchLimit'개 만큼 선취한다", function() {
       var prefetchLimit = 3;
       proxy(attendees, profileService, prefetchLimit);
       expect(spyOnProfileService.calls.count()).toBe(prefetchLimit);

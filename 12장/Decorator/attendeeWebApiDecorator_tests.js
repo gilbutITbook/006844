@@ -4,7 +4,7 @@
       baseWebApi,
       attendeeA,
       attendeeB,
-      underlyingFailure = '원 함수 실패';
+      underlyingFailure = '원함수 실패';
 
   // decoratedWebApi.getAll()를 실행하면 프라미스가 귀결되어 반환될 것이다
   // done        - 비동기 처리 시 널리 쓰이는 재스민 done() 함수다
@@ -29,7 +29,7 @@
 
   describe('post(attendee)', function() {
 
-    describe('원 post가 성공할 경우', function() {
+    describe('원post가 성공할 경우', function() {
       it('ID가 채번된 attendee로 귀결되는 프라미스를 반환한다', function(done) {
         decoratedWebApi.post(attendeeA).then(
           function onSuccess(attendee) {
@@ -79,9 +79,9 @@
       });
     });
 
-    describe('원 post가 실패할 경우', function() {
+    describe('원post가 실패할 경우', function() {
       beforeEach(function() {
-        // 다음 차례가 되어서야 비로소 원 post가 실패하게 만든다.
+        // 다음 차례가 되어서야 비로소 원post가 실패하게 만든다.
        spyOn(baseWebApi,'post').and.returnValue(
         new Promise( function(resolve,reject) {
           setTimeout(function() {
@@ -89,7 +89,7 @@
           },5);
         }));
       });
-      it('원 사유로 인해 버려진 프라미스를 반환한다', function(done) {
+      it('원사유로 인해 버려진 프라미스를 반환한다', function(done) {
         decoratedWebApi.post(attendeeA).then(
           function onSuccessfulPost() {
             expect('전송 성공').toBe(false);
@@ -143,7 +143,7 @@
 
   describe('getAll()', function() {
 
-    describe('원 getAll이 성공할 경우', function() {
+    describe('원getAll이 성공할 경우', function() {
       it('미결 상태인 레코드가 하나도 없다면 처리된 전체 레코드에 대한 프라미스를 반환한다', function(done) {
         spyOn(baseWebApi,'getAll').and.returnValue(
           new Promise( function(resolve,reject) {
@@ -167,8 +167,8 @@
       });
     });
 
-    describe('원 getAll이 실패할 경우', function() {
-      it('원 버림 프라미스를 반환한다', function(done) {
+    describe('원getAll이 실패할 경우', function() {
+      it('원버림 프라미스를 반환한다', function(done) {
         spyOn(baseWebApi,'getAll').and.returnValue(
           new Promise( function(resolve,reject) {
             setTimeout(function() {
@@ -177,7 +177,7 @@
           }));
         decoratedWebApi.getAll().then(
           function onSuccess() {
-            expect('원 getAll 함수 성공').toBe(false);
+            expect('원getAll 함수 성공').toBe(false);
             done();
           },
           function onFailure(reason) {
